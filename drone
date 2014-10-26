@@ -11,8 +11,6 @@ else
 	export DRONE_WORKER_NODES=$DOCKER_HOST
 fi
 
-env
-
 echo 'Everything is okay. Starting up drone!'
 
 droned
